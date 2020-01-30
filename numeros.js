@@ -13,5 +13,5 @@ const media = total / (peso1 + peso2);
 console.log(media.toFixed(2));
 console.log(media.toString()); //colocando o (2) para colocar o valor da média em binário
 console.log(typeof media);
-console.log(typeof Number);
+console.log(typeof Number); 
 
