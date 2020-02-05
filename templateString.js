@@ -6,6 +6,6 @@ const template = `
 console.log(vamosConcatenar, template);
 console.log(`1 + 1 = ${1 + 1}`); //expressoes, caso não tenha o $ ele irá concatenar não somar.
 
-const up = texto => texto.toUpperCase()
-console.log(`1 + 1 = ${1 + 1}`);
+const up = texto => texto.toUpperCase() //colocar em maiúsculo
+console.log(`Ei... ${up('presta atenção aqui')}!`);
 
