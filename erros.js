@@ -13,6 +13,7 @@ function tratarErro(erro){
 function imprimirNome(objeto){
     try{
         console.log(objeto.name.toUpperCase() + '!!!');
+        //console.log(objeto.nome.toUpperCase() + '!!!');  //sem erro para ver como fica mensagem 
     } catch (erro) {
         tratarErro(erro);
     } finally {
